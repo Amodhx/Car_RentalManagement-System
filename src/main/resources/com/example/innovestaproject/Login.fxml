@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="458.0" prefWidth="623.0" style="-fx-background-radius: 1,2;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.innovestaproject.LoginController">
+  <children>
+      <ImageView fitHeight="458.0" fitWidth="623.0">
+         <image>
+            <Image url="@login.png" />
+         </image>
+      </ImageView>
+     
+    <TextField fx:id="textField" layoutX="381.0" layoutY="182.0" prefHeight="25.0" prefWidth="208.0" promptText="Enter user name" style="-fx-background-color: rgba(255, 255, 255, 0.28); -fx-background-radius: 8;">
+      <font>
+        <Font size="11.0" />
+      </font>
+    </TextField>
+    <PasswordField fx:id="passwordField" layoutX="382.0" layoutY="221.0" prefHeight="25.0" prefWidth="208.0" promptText="Enter password" style="-fx-background-color: rgba(255, 255, 255, 0.28); -fx-background-radius: 8;" />
+    <Label fx:id="l1" layoutX="521.0" layoutY="253.0" onDragDetected="#OnLabelClick" onMouseClicked="#OnLabelClick" text="foget password" textFill="#18a2f8">
+      <font>
+        <Font size="10.0" />
+      </font>
+      <cursor>
+        <Cursor fx:constant="HAND" />
+      </cursor>
+    </Label>
+    <Button fx:id="button" layoutX="407.0" layoutY="285.0" mnemonicParsing="false" onAction="#OnButtonClick" prefHeight="17.0" prefWidth="148.0" style="-fx-background-color: rgba(151, 236, 255, 0.83); -fx-background-radius: 8;" text="login" />
+    <Label fx:id="l2" alignment="CENTER" layoutX="377.0" layoutY="319.0" prefHeight="15.0" prefWidth="208.0" textFill="#ec0509">
+      <font>
+        <Font size="10.0" />
+      </font>
+      <cursor>
+        <Cursor fx:constant="HAND" />
+      </cursor>
+    </Label>
+  </children>
+</AnchorPane>
