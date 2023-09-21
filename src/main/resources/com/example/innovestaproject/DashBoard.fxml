@@ -34,14 +34,14 @@
             <Image url="@search.png" />
          </image>
       </ImageView>
-      <Button fx:id="btn2" layoutX="1173.0" layoutY="29.0" mnemonicParsing="false"  prefHeight="30.0" prefWidth="26.0" style="-fx-background-radius: 15;" />
-      <Button fx:id="btn1" layoutX="1136.0" layoutY="29.0" mnemonicParsing="false"  prefHeight="30.0" prefWidth="26.0" style="-fx-background-radius: 15;" />
-      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="1136.0" layoutY="31.0">
+      <Button fx:id="btn2" layoutX="1173.0" layoutY="20.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="26.0" style="-fx-background-radius: 15;" />
+      <Button fx:id="btn1" layoutX="1136.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="26.0" style="-fx-background-radius: 15;" />
+      <ImageView fitHeight="14.0" fitWidth="14.0" layoutX="1142.0" layoutY="26.0">
          <image>
             <Image url="@notifi.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="26.0" fitWidth="20.0" layoutX="1176.0" layoutY="31.0">
+      <ImageView fitHeight="15.0" fitWidth="14.0" layoutX="1179.0" layoutY="26.0">
          <image>
             <Image url="@prof.png" />
          </image>
