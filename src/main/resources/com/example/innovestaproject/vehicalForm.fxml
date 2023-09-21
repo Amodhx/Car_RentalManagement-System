@@ -54,7 +54,7 @@
         </ButtonBar>
         <Button layoutX="340.0" layoutY="114.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: rgba(0, 18, 159, 1); -fx-background-radius: 12;" text="self drive" textFill="#fff6f6" />
         <Button layoutX="464.0" layoutY="115.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: rgba(0, 18, 159, 1); -fx-background-radius: 12;" text="Vans" textFill="#fff6f6" />
-        <Button layoutX="224.0" layoutY="114.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: rgba(0, 18, 159, 1); -fx-background-radius: 12;" text="for weddings" textFill="#fff6f6" />
+        <Button layoutX="224.0" layoutY="114.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: rgba(0, 18, 159, 1); -fx-background-radius: 12;" text="for weddings" textFill="#fff6f6" />
         <Button layoutX="579.0" layoutY="115.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: rgba(0, 18, 159, 1); -fx-background-radius: 12;" text="cars" textFill="#fff6f6" />
 
         <Button fx:id="moreButton" layoutX="314.0" layoutY="215.0" mnemonicParsing="false" onAction="#onButtonClickmore" style="-fx-background-color: rgba(0, 18, 159, 1);" text="more-&gt;" textFill="WHITE" />

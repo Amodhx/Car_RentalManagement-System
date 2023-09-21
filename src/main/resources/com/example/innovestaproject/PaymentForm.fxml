@@ -25,14 +25,14 @@
                 <Font name="System Bold" size="24.0" />
             </font>
         </Label>
-      <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="754.0" layoutY="29.0">
+      <ImageView fitHeight="22.0" fitWidth="23.0" layoutX="769.0" layoutY="37.0">
          <image>
             <Image url="@search.png" />
          </image>
       </ImageView>
         <Button layoutX="465.0" layoutY="148.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="145.0" style="-fx-background-radius: 12;" text="               +&#10;&#10;Add Payment Method" />
         <Button layoutX="734.0" layoutY="35.0" mnemonicParsing="false" opacity="0.0" prefHeight="26.0" prefWidth="77.0" style="-fx-background-radius: 13;" />
-        <Circle fill="WHITE" layoutX="533.0" layoutY="175.0" opacity="0.1" radius="19.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" />
+        <Circle fill="WHITE" layoutX="543.0" layoutY="176.0" opacity="0.1" radius="19.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" />
         <Label layoutX="76.0" layoutY="269.0" prefHeight="18.0" prefWidth="211.0" text="Amount Package" textFill="WHITE">
             <font>
                 <Font name="System Bold" size="24.0" />

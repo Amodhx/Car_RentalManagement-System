@@ -6,6 +6,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="806.0" prefWidth="1238.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.innovestaproject.BookingController">
     <children>
@@ -26,16 +27,13 @@
         <Button layoutX="1330.0" layoutY="829.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: blue;" text="Next" textFill="#fff8f8" />
 
         <Button layoutX="1189.0" layoutY="27.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="26.0" style="-fx-background-radius: 100;" />
-      <ImageView fitHeight="16.0" fitWidth="15.0" layoutX="1117.0" layoutY="32.0">
-         <image>
-            <Image url="@bb.jpg" />
-         </image>
-      </ImageView>
-      <Button layoutX="1106.0" layoutY="23.0" mnemonicParsing="false" opacity="0.0" prefHeight="33.0" prefWidth="35.0" />
-      <ImageView fitHeight="16.0" fitWidth="15.0" layoutX="1159.0" layoutY="32.0">
+      <Button layoutX="1107.0" layoutY="24.0" mnemonicParsing="false" opacity="0.0" prefHeight="33.0" prefWidth="35.0" />
+      <ImageView fitHeight="16.0" fitWidth="15.0" layoutX="1158.0" layoutY="32.0">
          <image>
             <Image url="@notifi.png" />
          </image>
       </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="14.0" layoutX="1123.0" layoutY="33.0" stroke="WHITE" strokeType="INSIDE" width="2.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" layoutX="1117.0" layoutY="39.0" stroke="WHITE" strokeType="INSIDE" width="14.0" />
     </children>
 </AnchorPane>

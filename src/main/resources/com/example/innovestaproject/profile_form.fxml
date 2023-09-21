@@ -37,17 +37,7 @@
          </font>
       </TextField>
       <TextField alignment="CENTER" layoutX="36.0" layoutY="330.0" prefHeight="26.0" prefWidth="266.0" text="LOG OUT" />
-      <ImageView layoutX="36.0" layoutY="237.0">
-         <image>
-            <Image url="@elip.png" />
-         </image>
-      </ImageView>
-      <TextField layoutX="39.0" layoutY="238.0" opacity="0.37" prefHeight="22.0" prefWidth="19.0" text="E">
-         <font>
-            <Font name="System Bold" size="10.0" />
-         </font>
-      </TextField>
-      <ImageView layoutX="37.0" layoutY="279.0">
+      <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="38.0" layoutY="238.0">
          <image>
             <Image url="@elip.png" />
          </image>
@@ -59,5 +49,6 @@
       </ImageView>
       <Button layoutX="37.0" layoutY="278.0" mnemonicParsing="false" opacity="0.0" prefHeight="26.0" prefWidth="222.0" />
       <Button layoutX="54.0" layoutY="330.0" mnemonicParsing="false" opacity="0.0" prefHeight="26.0" prefWidth="240.0" />
+      <Label layoutX="45.0" layoutY="241.0" text="E" />
    </children>
 </AnchorPane>
