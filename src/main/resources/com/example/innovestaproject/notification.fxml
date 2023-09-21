@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="484.0" prefWidth="337.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.innovestaproject.notifiController">
+   <children>
+      <ImageView fitHeight="484.0" fitWidth="360.0" layoutX="-11.0">
+         <image>
+            <Image url="@Rectangle 438.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="279.0" layoutX="32.0" layoutY="108.0">
+         <image>
+            <Image url="@Rectangle 439.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="28.0" layoutY="50.0" text="Notification" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="115.0" text="Warning" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Label>
+      <ImageView layoutX="39.0" layoutY="117.0">
+         <image>
+            <Image url="@warning.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="41.0" layoutY="129.0" opacity="0.0" prefHeight="26.0" prefWidth="297.0" />
+   </children>
+</AnchorPane>

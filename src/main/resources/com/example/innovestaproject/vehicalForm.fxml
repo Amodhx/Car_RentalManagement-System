@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="806.0" prefWidth="1238.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.innovestaproject.vehicalController">
+    <children>
+        <ImageView fitHeight="807.0" fitWidth="1240.0">
+            <image>
+                <Image url="@car.png" />
+            </image>
+        </ImageView>
+      <ImageView fitHeight="260.0" fitWidth="286.0" layoutX="101.0" layoutY="464.0">
+         <image>
+            <Image url="@vvvvv.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="260.0" fitWidth="286.0" layoutX="477.0" layoutY="464.0">
+         <image>
+            <Image url="@vvvvv.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="260.0" fitWidth="286.0" layoutX="855.0" layoutY="464.0">
+         <image>
+            <Image url="@vvvvv.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="260.0" fitWidth="286.0" layoutX="849.0" layoutY="167.0">
+         <image>
+            <Image url="@vvvvv.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="260.0" fitWidth="286.0" layoutX="473.0" layoutY="167.0">
+         <image>
+            <Image url="@vvvvv.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="260.0" fitWidth="286.0" layoutX="92.0" layoutY="167.0">
+         <image>
+            <Image url="@vvvvv.png" />
+         </image>
+      </ImageView>
+
+        <ButtonBar layoutX="2.0" layoutY="107.0" prefHeight="40.0" prefWidth="200.0">
+            <buttons>
+                <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: rgba(0, 18, 159, 1); -fx-background-radius: 12;" text="with driver" textFill="#fff6f6" />
+            </buttons>
+
+        </ButtonBar>
+        <Button layoutX="340.0" layoutY="114.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: rgba(0, 18, 159, 1); -fx-background-radius: 12;" text="self drive" textFill="#fff6f6" />
+        <Button layoutX="464.0" layoutY="115.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: rgba(0, 18, 159, 1); -fx-background-radius: 12;" text="Vans" textFill="#fff6f6" />
+        <Button layoutX="224.0" layoutY="114.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: rgba(0, 18, 159, 1); -fx-background-radius: 12;" text="for weddings" textFill="#fff6f6" />
+        <Button layoutX="579.0" layoutY="115.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: rgba(0, 18, 159, 1); -fx-background-radius: 12;" text="cars" textFill="#fff6f6" />
+
+        <Button fx:id="moreButton" layoutX="314.0" layoutY="215.0" mnemonicParsing="false" onAction="#onButtonClickmore" style="-fx-background-color: rgba(0, 18, 159, 1);" text="more-&gt;" textFill="WHITE" />
+        <Label layoutX="170.0" layoutY="350.0" text="Customer" />
+        <Label layoutX="169.0" layoutY="368.0" text="kavindu Hansakalum">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="103.0" layoutY="396.0" text="mercedes" />
+        <Label layoutX="208.0" layoutY="395.0" text="wp- 2r342" />
+
+        <Label fx:id="conditionLable" layoutX="289.0" layoutY="384.0" text="condition">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Label>
+
+        <Button layoutX="319.0" layoutY="495.0" mnemonicParsing="false" style="-fx-background-color: rgba(0, 18, 159, 1);" text="more-&gt;" textFill="WHITE" />
+        <Label layoutX="176.0" layoutY="630.0" text="Customer" />
+        <Label layoutX="174.0" layoutY="648.0" text="Sanidhu veerasinge">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="108.0" layoutY="676.0" text="white-mercedes" />
+        <Label layoutX="213.0" layoutY="675.0" text="PP - 234Rw" />
+
+        <Label fx:id="conditionLable2" layoutX="294.0" layoutY="664.0" text="condition">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Label>
+        <Button layoutX="700.0" layoutY="495.0" mnemonicParsing="false" style="-fx-background-color: rgba(0, 18, 159, 1);" text="more-&gt;" textFill="WHITE" />
+        <Label layoutX="556.0" layoutY="630.0" text="Customer" />
+        <Label layoutX="555.0" layoutY="648.0" text="Jeewan kodithuwakku">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="489.0" layoutY="676.0" text="mercedes-benz-s" />
+        <Label layoutX="594.0" layoutY="675.0" text="Pw-wph" />
+        <Label fx:id="conditionLable3" layoutX="675.0" layoutY="664.0" text="condition">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Label>
+        <Button layoutX="1078.0" layoutY="209.0" mnemonicParsing="false" style="-fx-background-color: rgba(0, 18, 159, 1);" text="more-&gt;" textFill="WHITE" />
+        <Label layoutX="934.0" layoutY="344.0" text="Customer" />
+        <Label layoutX="933.0" layoutY="362.0" text="Pathum prasadh">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="888.0" layoutY="390.0" text="hiace" />
+        <Label layoutX="972.0" layoutY="389.0" text="sw - 24342" />
+        <Label fx:id="conditionLable4" layoutX="1053.0" layoutY="378.0" text="condition">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Label>
+      <ImageView fitHeight="143.0" fitWidth="213.0" layoutX="866.0" layoutY="196.0">
+         <image>
+            <Image url="@v2.png" />
+         </image>
+      </ImageView>
+        <ImageView fitHeight="134.0" fitWidth="200.0" layoutX="124.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@v7.png" />
+            </image>
+        </ImageView>
+        <Button layoutX="690.0" layoutY="213.0" mnemonicParsing="false" style="-fx-background-color: rgba(0, 18, 159, 1);" text="more-&gt;" textFill="WHITE" />
+        <Label layoutX="546.0" layoutY="348.0" text="Customer" />
+        <Label layoutX="545.0" layoutY="366.0" text="Randika Edirisooriya">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="479.0" layoutY="394.0" text="mercedes-benz" />
+        <Label layoutX="584.0" layoutY="393.0" text="PP - 2342" />
+        <Label fx:id="conditionLable1" layoutX="665.0" layoutY="382.0" text="condition">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Label>
+      <ImageView fitHeight="111.0" fitWidth="188.0" layoutX="127.0" layoutY="524.0">
+         <image>
+            <Image url="@v3.png" />
+         </image>
+      </ImageView>
+        <Label layoutX="930.0" layoutY="627.0" text="Customer" />
+        <Label layoutX="929.0" layoutY="645.0" text="Samrathunga Arachchi">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="863.0" layoutY="673.0" text="mercedes-benz" />
+        <Label layoutX="968.0" layoutY="672.0" text="ww-6775" />
+        <Label fx:id="conditionLable31" layoutX="1049.0" layoutY="661.0" text="condition">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Label>
+      <ImageView fitHeight="150.0" fitWidth="213.0" layoutX="503.0" layoutY="213.0">
+         <image>
+            <Image url="@v5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="104.0" fitWidth="200.0" layoutX="518.0" layoutY="531.0">
+         <image>
+            <Image url="@v4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="200.0" layoutX="885.0" layoutY="501.0">
+         <image>
+            <Image url="@v6.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="287.0" layoutY="403.0">
+         <image>
+            <Image url="@v9.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="664.0" layoutY="404.0">
+         <image>
+            <Image url="@v9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitWidth="79.0" layoutX="1051.0" layoutY="687.0">
+         <image>
+            <Image url="@v9.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="1047.0" layoutY="403.0">
+         <image>
+            <Image url="@v9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitWidth="79.0" layoutX="664.0" layoutY="687.0">
+         <image>
+            <Image url="@v9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitWidth="79.0" layoutX="283.0" layoutY="687.0">
+         <image>
+            <Image url="@v9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="8.0" fitWidth="54.0" layoutX="287.0" layoutY="403.0">
+         <image>
+            <Image url="@v10.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="1048.0" layoutY="687.0">
+         <image>
+            <Image url="@v10.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="8.0" fitWidth="43.0" layoutX="1046.0" layoutY="403.0">
+         <image>
+            <Image url="@v10.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="657.0" layoutY="404.0">
+         <image>
+            <Image url="@v10.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="8.0" fitWidth="43.0" layoutX="662.0" layoutY="687.0">
+         <image>
+            <Image url="@v10.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="284.0" layoutY="687.0">
+         <image>
+            <Image url="@v10.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

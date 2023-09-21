@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="825.0" prefWidth="1525.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.innovestaproject.MainFromController">
+   <children>
+      <ImageView fitHeight="832.0" fitWidth="1535.0">
+         <image>
+            <Image url="@Main.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="DashBoardButton" layoutX="18.0" layoutY="98.0" mnemonicParsing="false" onAction="#onDashBoardClick" opacity="0.0" prefHeight="42.0" prefWidth="254.0" />
+      <Button fx:id="EmployeeButton" layoutX="18.0" layoutY="194.0" mnemonicParsing="false" onAction="#onEmployeeButtonclick" opacity="0.0" prefHeight="42.0" prefWidth="254.0" />
+      <Button fx:id="VehicalButton" layoutX="18.0" layoutY="243.0" mnemonicParsing="false" onAction="#onVehicalButtonClick" opacity="0.0" prefHeight="42.0" prefWidth="254.0" />
+      <Button fx:id="BookingButton" layoutX="18.0" layoutY="426.0" mnemonicParsing="false" onAction="#OnBookingButtonClick" opacity="0.0" prefHeight="36.0" prefWidth="254.0" />
+      <Button fx:id="CustomerButton" layoutX="18.0" layoutY="380.0" mnemonicParsing="false" onAction="#onCustomerButtonClick" opacity="0.0" prefHeight="36.0" prefWidth="254.0" />
+      <Button fx:id="PaymentButton" layoutX="18.0" layoutY="333.0" mnemonicParsing="false" onAction="#onPayementButtonClick" opacity="0.0" prefHeight="36.0" prefWidth="254.0" />
+      <AnchorPane fx:id="apane" layoutX="290.0" layoutY="-1.0" prefHeight="826.0" prefWidth="1242.0">
+         <children>
+            <ImageView fitHeight="799.0" fitWidth="1229.0">
+               <image>
+                  <Image url="@DashBoard.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="200.0" layoutX="54.0" layoutY="42.0">
+               <image>
+                  <Image url="@Rectangle 3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="24.0" layoutX="63.0" layoutY="50.0">
+               <image>
+                  <Image url="@C.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="97.0" layoutY="57.0">
+               <image>
+                  <Image url="@Wednesday, 17 May 2021.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="514.0" layoutY="46.0" opacity="0.26" prefHeight="26.0" prefWidth="229.0" style="-fx-background-radius: 8;" />
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="708.0" layoutY="46.0" opacity="0.98">
+               <image>
+                  <Image url="@search.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btn2" layoutX="1154.0" layoutY="39.0" mnemonicParsing="false" onAction="#onbtn2CLick" prefHeight="30.0" prefWidth="26.0" style="-fx-background-radius: 15;" />
+            <Button fx:id="btn1" layoutX="1119.0" layoutY="39.0" mnemonicParsing="false" onAction="#onbtn1Click" prefHeight="30.0" prefWidth="26.0" style="-fx-background-radius: 15;" />
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="1119.0" layoutY="41.0">
+               <image>
+                  <Image url="@notifi.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="20.0" layoutX="1157.0" layoutY="41.0">
+               <image>
+                  <Image url="@prof.png" />
+               </image>
+            </ImageView>
+            <AnchorPane fx:id="notifilay" layoutX="794.0" layoutY="72.0" prefHeight="484.0" prefWidth="337.0" />
+            <Button layoutX="694.0" layoutY="46.0" mnemonicParsing="false" opacity="0.0" prefHeight="26.0" prefWidth="53.0" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

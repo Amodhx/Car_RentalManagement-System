@@ -45,16 +45,16 @@ public class LoginController {
         String x=textField.getText();
         String y=passwordField.getText();
 
+
         boolean flag= UserFormController.setUserTable(x,y);
 
-
+        //flag=true;
         if(flag){
             Parent root;
-            root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("DashBoard.fxml")));
+            root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("MainForm.fxml")));
             Stage stage=new Stage();
             stage.initStyle(StageStyle.UNDECORATED);
-            stage.setScene(new Scene(root,100,825));
-            stage.setResizable(false);
+            stage.setScene(new Scene(root,1525,820));
             stage.show();
             Stage stage1=(Stage) button.getScene().getWindow();
             stage1.close();

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="806.0" prefWidth="1238.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.innovestaproject.CustomerAddController">
+    <children>
+        <ImageView fitHeight="806.0" fitWidth="1240.0">
+            <image>
+                <Image url="@car.png" />
+            </image>
+        </ImageView>
+        <Pane layoutX="10.0" layoutY="116.0" prefHeight="680.0" prefWidth="1206.0" style="-fx-background-color: #D9D9D9; -fx-background-radius: 10;">
+            <children>
+                <Pane layoutX="23.0" layoutY="13.0" prefHeight="654.0" prefWidth="823.0" style="-fx-background-color: #8C8C8C; -fx-background-radius: 10;">
+                    <children>
+                        <Label layoutX="88.0" layoutY="41.0" prefHeight="17.0" prefWidth="88.0" text="First Name" textFill="#200202">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="firstName" layoutX="88.0" layoutY="61.0" prefHeight="25.0" prefWidth="269.0" style="-fx-background-radius: 10;" />
+                        <Label layoutX="504.0" layoutY="41.0" prefHeight="17.0" prefWidth="88.0" text="Last Name" textFill="#200202">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="lastName" layoutX="498.0" layoutY="61.0" prefHeight="25.0" prefWidth="269.0" style="-fx-background-radius: 10;" />
+                        <Label layoutX="52.0" layoutY="14.0" prefHeight="17.0" prefWidth="131.0" text="Customer Form" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="address" layoutX="88.0" layoutY="147.0" prefHeight="25.0" prefWidth="473.0" style="-fx-background-radius: 10;" />
+                        <Label layoutX="88.0" layoutY="111.0" prefHeight="17.0" prefWidth="88.0" text="Address" textFill="#200202">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="615.0" layoutY="111.0" prefHeight="17.0" prefWidth="88.0" text="Birthday" textFill="#200202">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="dob" layoutX="612.0" layoutY="147.0" prefHeight="25.0" prefWidth="156.0" promptText="DD/MM/YYYY" style="-fx-background-radius: 10;" />
+                        <Label layoutX="88.0" layoutY="193.0" prefHeight="17.0" prefWidth="88.0" text="NIC" textFill="#200202">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="480.0" layoutY="193.0" prefHeight="20.0" prefWidth="156.0" text="Driving License" textFill="#200202">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="nic" layoutX="88.0" layoutY="224.0" prefHeight="25.0" prefWidth="314.0" style="-fx-background-radius: 10;" />
+                        <TextField fx:id="lic" layoutX="458.0" layoutY="224.0" prefHeight="25.0" prefWidth="314.0" style="-fx-background-radius: 10;" />
+                        <Label layoutX="88.0" layoutY="270.0" prefHeight="17.0" prefWidth="88.0" text="Working At" textFill="#200202">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="475.0" layoutY="270.0" prefHeight="17.0" prefWidth="88.0" text="Email" textFill="#200202">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="workingAt" layoutX="88.0" layoutY="302.0" prefHeight="25.0" prefWidth="314.0" style="-fx-background-radius: 10;" />
+                        <TextField fx:id="mail" layoutX="458.0" layoutY="302.0" prefHeight="25.0" prefWidth="314.0" style="-fx-background-radius: 10;" />
+                        <Label layoutX="52.0" layoutY="348.0" prefHeight="17.0" prefWidth="88.0" text="Vehicle Form" textFill="#f4f3f3">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="88.0" layoutY="385.0" prefHeight="17.0" prefWidth="88.0" text="Get Date" textFill="#200202">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="getDate" layoutX="88.0" layoutY="413.0" prefHeight="25.0" prefWidth="156.0" promptText="DD/MM/YYYY" style="-fx-background-radius: 10;" />
+                        <Button fx:id="saveButton" layoutX="344.0" layoutY="593.0" mnemonicParsing="false" onAction="#onSaveButtonClick" prefHeight="25.0" prefWidth="137.0" style="-fx-background-color: blue; -fx-background-radius: 20;" text="Save" textFill="#fff7f7">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </Pane>
+                <TextField layoutX="849.0" layoutY="16.0" prefHeight="648.0" prefWidth="349.0" />
+                <Label layoutX="957.0" layoutY="26.0" prefHeight="17.0" prefWidth="164.0" text="Select vehicle category" textFill="#6b6464">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Label>
+                <CheckBox fx:id="v3" layoutX="854.0" layoutY="233.0" mnemonicParsing="false" />
+                <CheckBox fx:id="v4" layoutX="854.0" layoutY="285.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="17.0" />
+                <CheckBox fx:id="v5" layoutX="854.0" layoutY="377.0" mnemonicParsing="false" />
+                <CheckBox fx:id="v6" layoutX="854.0" layoutY="452.0" mnemonicParsing="false" />
+                <CheckBox fx:id="v7" layoutX="854.0" layoutY="522.0" mnemonicParsing="false" />
+                <CheckBox fx:id="v2" layoutX="854.0" layoutY="165.0" mnemonicParsing="false" />
+                <CheckBox fx:id="v1" layoutX="854.0" layoutY="103.0" mnemonicParsing="false" />
+                <Label contentDisplay="CENTER" layoutX="1071.0" layoutY="103.0" prefHeight="17.0" prefWidth="58.0" text="Available">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Label>
+                <Label contentDisplay="CENTER" layoutX="1071.0" layoutY="165.0" prefHeight="17.0" prefWidth="58.0" text="Available">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Label>
+                <Label contentDisplay="CENTER" layoutX="1071.0" layoutY="233.0" prefHeight="17.0" prefWidth="58.0" text="Available">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Label>
+                <Label contentDisplay="CENTER" layoutX="1071.0" layoutY="304.0" prefHeight="17.0" prefWidth="58.0" text="Available">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Label>
+                <Label contentDisplay="CENTER" layoutX="1071.0" layoutY="377.0" prefHeight="17.0" prefWidth="58.0" text="Available">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Label>
+                <Label contentDisplay="CENTER" layoutX="1071.0" layoutY="452.0" prefHeight="17.0" prefWidth="58.0" text="Available">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Label>
+                <Label contentDisplay="CENTER" layoutX="1071.0" layoutY="522.0" prefHeight="17.0" prefWidth="58.0" text="Available">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Label>
+            <ImageView fitHeight="45.0" fitWidth="58.0" layoutX="899.0" layoutY="89.0">
+               <image>
+                  <Image url="@sen.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="66.0" layoutX="895.0" layoutY="151.0">
+               <image>
+                  <Image url="@v3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="58.0" layoutX="895.0" layoutY="223.0">
+               <image>
+                  <Image url="@v4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="58.0" layoutX="895.0" layoutY="290.0">
+               <image>
+                  <Image url="@v5.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="66.0" layoutX="891.0" layoutY="363.0">
+               <image>
+                  <Image url="@v6.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="58.0" layoutX="904.0" layoutY="438.0">
+               <image>
+                  <Image url="@v7.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="55.0" fitWidth="72.0" layoutX="892.0" layoutY="498.0">
+               <image>
+                  <Image url="@v8.png" />
+               </image>
+            </ImageView>
+            <Label contentDisplay="CENTER" layoutX="981.0" layoutY="103.0" prefHeight="17.0" prefWidth="58.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            </children>
+        </Pane>
+        <Button fx:id="backButton" layoutX="21.0" layoutY="53.0" mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="26.0" prefWidth="27.0" style="-fx-background-radius: 50;" text="&lt;" textFill="#8c8c8c">
+            <font>
+                <Font name="System Bold" size="10.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="20.0" fitWidth="21.0" layoutX="679.0" layoutY="43.0" opacity="0.32">
+            <image>
+                <Image url="@images.png" />
+            </image>
+        </ImageView>
+        <TextField layoutX="452.0" layoutY="40.0" opacity="0.49" prefHeight="26.0" prefWidth="254.0" style="-fx-background-radius: 20;" />
+        <Button layoutX="683.0" layoutY="37.0" mnemonicParsing="false" opacity="0.0" prefHeight="26.0" prefWidth="27.0" />
+    </children>
+</AnchorPane>
