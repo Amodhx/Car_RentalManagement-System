@@ -17,18 +17,18 @@
             </image>
         </ImageView>
         <TextField layoutX="531.0" layoutY="51.0" opacity="0.69" prefHeight="26.0" prefWidth="261.0" style="-fx-background-radius: 8;" />
-      <ImageView fitHeight="26.0" fitWidth="31.0" layoutX="761.0" layoutY="51.0">
+      <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="769.0" layoutY="56.0">
          <image>
             <Image url="@search.png" />
          </image>
       </ImageView>
-        <ImageView fitHeight="26.0" fitWidth="24.0" layoutX="752.0" layoutY="51.0" opacity="0.28">
+        <ImageView fitHeight="26.0" fitWidth="24.0" layoutX="765.0" layoutY="50.0" opacity="0.28">
             <image>
                 <Image url="@images.png" />
             </image>
         </ImageView>
-        <Button layoutX="738.0" layoutY="51.0" mnemonicParsing="false" opacity="0.0" text="Button" />
-        <Button fx:id="addButton" layoutX="981.0" layoutY="51.0" mnemonicParsing="false" onAction="#OnAddButtonClick" prefHeight="26.0" prefWidth="31.0" style="-fx-background-radius: 80; -fx-background-color: blue;" text="+" textFill="#fffcfc">
+        <Button layoutX="749.0" layoutY="51.0" mnemonicParsing="false" opacity="0.0" prefHeight="2.0" prefWidth="53.0" text="Button" />
+        <Button fx:id="addButton" layoutX="981.0" layoutY="44.0" mnemonicParsing="false" onAction="#OnAddButtonClick" prefHeight="26.0" prefWidth="26.0" style="-fx-background-radius: 80; -fx-background-color: blue;" text="+" textFill="#fffcfc">
             <font>
                 <Font name="System Bold" size="12.0" />
             </font>
@@ -56,9 +56,9 @@
       </Label>
       <Button layoutX="43.0" layoutY="189.0" mnemonicParsing="false" opacity="0.2" prefHeight="38.0" prefWidth="1163.0" style="-fx-background-radius: 15;" />
       <ImageView fx:id="image" fitHeight="83.0" fitWidth="108.0" layoutX="50.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true" />
-      <TextField fx:id="nametag" layoutX="230.0" layoutY="277.0" />
-      <TextField fx:id="nictag" layoutX="1004.0" layoutY="274.0" />
-      <TextField fx:id="addressTag" layoutX="512.0" layoutY="274.0" />
-      <TextField fx:id="datetag" layoutX="793.0" layoutY="274.0" />
+      <TextField fx:id="nametag" blendMode="SCREEN" layoutX="230.0" layoutY="277.0" />
+      <TextField fx:id="nictag" blendMode="SCREEN" layoutX="1004.0" layoutY="274.0" />
+      <TextField fx:id="addressTag" blendMode="SCREEN" layoutX="512.0" layoutY="274.0" />
+      <TextField fx:id="datetag" blendMode="SCREEN" layoutX="793.0" layoutY="274.0" />
     </children>
 </AnchorPane>
