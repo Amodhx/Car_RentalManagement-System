@@ -5,71 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f37a6d-ce4a-4287-b575-14f042af756d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Control/EmployeeFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/BookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/CustomerAddController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/EmployeeAddController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/EmployeeCOntroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/MainFromController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/PayementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/SensorsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/TrackerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/empController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/notifiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/profileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/speedController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/vehicalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/EmployeeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/EmployeeModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/C.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/CustomerAddForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/CustomerForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/DashBoard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/Ellipse 106.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/EmployeeAddForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/EmployeeForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/Main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/MainForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/PaymentForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/Rec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/Rectangle 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/Rectangle 438.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/Rectangle 439.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/Scensiors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/Sensors.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/Speed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/SpeedForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/TrackerForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/Wednesday, 17 May 2021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/bb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/bookingForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/chevron-down 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/crd1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/crd2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/elip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/emp.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/map.png.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/notifi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/notification.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/prof.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/profile_form.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/se.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/sen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/th.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/vehicalForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/SingleCustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/cuscontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/SingleCustomer.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/cusformController.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Control/CustomerFormController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/DashBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/DashBoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/CustomerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/CustomerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/CustomerModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/DashBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/DashBoard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/empController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/innovestaproject/empController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/CustomerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/CustomerForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/EmployeeForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/EmployeeForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/emp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/innovestaproject/emp.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -115,7 +60,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/User/IdeaProjects/innovesta-project/src/main/java/com/example/innovestaproject&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Downloads/mysql-connector-j-8.1.0/mysql-connector-j-8.1.0/mysql-connector-j-8.1.0.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/innovesta-project&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -192,6 +137,14 @@
       <workItem from="1695014437279" duration="29000" />
       <workItem from="1695099684007" duration="237000" />
       <workItem from="1695117837649" duration="315000" />
+      <workItem from="1695259060848" duration="681000" />
+      <workItem from="1695280591304" duration="5711000" />
+      <workItem from="1695300405833" duration="736000" />
+      <workItem from="1695308536792" duration="5231000" />
+      <workItem from="1695351548933" duration="27000" />
+      <workItem from="1695458191749" duration="3612000" />
+      <workItem from="1695553518869" duration="262000" />
+      <workItem from="1695560381810" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="innovesta-commit">
       <created>1694319042126</created>
@@ -200,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694319042126</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="inno8soft-commit">
+      <created>1695259291391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695259291391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="innovesta-commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="innovesta-commit" />
+    <MESSAGE value="inno8soft-commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="inno8soft-commit" />
   </component>
 </project>

@@ -3,6 +3,7 @@ package com.example.innovestaproject;
 import dto.EmployeeDTO;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -14,35 +15,36 @@ import java.util.ResourceBundle;
 
 public class empController implements Initializable {
 
-    @FXML
-    private ImageView image;
-
-    @FXML
-    private TextField name;
 
     @FXML
     private TextField address;
 
     @FXML
-    private TextField NIC;
+    private Label dob;
+
+    @FXML
+    private Label id;
+
 
 
     @FXML
-    private TextField date;
+    private Label jobrole;
+
     @FXML
-    private TextField mail;
+    private Label mail;
+
+    @FXML
+    private Label name;
+
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         ArrayList<EmployeeDTO> ar= EmployeeModel.getAllEmployee();
 
         if(ar.size()==0){ }else {
+            name.setText(ar.get(0).getFname()
+            );
 
-            Image im = new Image(getClass().getResourceAsStream(ar.get(0).getUrl()));
-            image.setImage(im);
-            name.setText(ar.get(0).getFname());
-            NIC.setText(ar.get(0).getNationIC());
-            mail.setText(ar.get(0).getEm());
-            date.setText(ar.get(0).getBday());
         }
     }
 }

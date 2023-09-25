@@ -1,32 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane prefHeight="290.0" prefWidth="268.0" style="-fx-background-color: rgba(133, 123, 255, 1); -fx-background-radius: 30;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.innovestaproject.empController">
+<Pane prefHeight="290.0" prefWidth="268.0" style="-fx-background-color: rgba(133, 123, 255, 1); -fx-background-radius: 30;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextField fx:id="address" layoutX="12.0" layoutY="164.0" prefHeight="112.0" prefWidth="245.0" style="-fx-background-radius: 30;" />
-      <ImageView fx:id="image" fitHeight="86.0" fitWidth="102.0" layoutX="85.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
-      <TextField fx:id="name" alignment="CENTER" layoutX="54.0" layoutY="111.0" prefHeight="41.0" prefWidth="149.0">
+      <TextField fx:id="address2" layoutX="12.0" layoutY="164.0" prefHeight="112.0" prefWidth="245.0" style="-fx-background-radius: 30;" />
+      <ImageView fx:id="image2" fitHeight="86.0" fitWidth="102.0" layoutX="85.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView layoutX="87.0" layoutY="15.0">
+         <image>
+            <Image url="@profile.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="88.0" layoutY="134.0" text="Developer">
          <font>
-            <Font name="Bell MT Bold" size="22.0" />
-         </font></TextField>
-      <TextField fx:id="NIC" alignment="CENTER" layoutX="30.0" layoutY="172.0" prefHeight="25.0" prefWidth="211.0">
-         <font>
-            <Font name="Bell MT Bold" size="14.0" />
+            <Font name="Bell MT" size="19.0" />
          </font>
-      </TextField>
-      <TextField fx:id="mail" alignment="CENTER" layoutX="18.0" layoutY="208.0" prefHeight="25.0" prefWidth="236.0">
+      </Label>
+      <Label alignment="CENTER" layoutX="56.0" layoutY="100.0" text="N.D. Amodh">
          <font>
-            <Font name="Bell MT Bold" size="14.0" />
+            <Font name="Bell MT Bold" size="26.0" />
          </font>
-      </TextField>
-      <TextField fx:id="date" alignment="CENTER" layoutX="37.0" layoutY="241.0">
+      </Label>
+      <Label layoutX="115.0" layoutY="174.0" text="DOB" />
+      <Label layoutX="97.0" layoutY="192.0" text="2002/08/26">
          <font>
-            <Font name="Bell MT Bold" size="14.0" />
+            <Font name="System Bold" size="12.0" />
          </font>
-      </TextField>
+      </Label>
+      <Label layoutX="60.0" layoutY="212.0" text="Amodh@inno.gmail.com">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="245.0" text="200227000940">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
    </children>
 </Pane>

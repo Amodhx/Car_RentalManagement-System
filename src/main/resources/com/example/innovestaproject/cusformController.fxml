@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="0.0" prefWidth="1163.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.innovestaproject.cuscontroller">
+   <children>
+      <TextField prefHeight="26.0" prefWidth="1163.0" style="-fx-background-color: rgba(181, 178, 211, 1);" text="         Amodh                                                 Kaluthara                       2022/09/18          20022700940">
+         <font>
+            <Font name="Bell MT Bold" size="26.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

@@ -8,6 +8,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -20,6 +21,8 @@ import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 public class CustomerController implements Initializable {
+    @FXML
+    private TextArea ancpane;
 
     @FXML
     private Button addButton;
@@ -27,8 +30,8 @@ public class CustomerController implements Initializable {
     private AnchorPane pane;
 
 
-    @FXML
-    private ImageView image;
+@FXML
+private AnchorPane amodhpane;
 
 
     @FXML
@@ -58,13 +61,15 @@ public class CustomerController implements Initializable {
         ArrayList<CustomerDTO> ar=CustomerModel.getAllCustomer();
 
         if(ar.size()==0){}else {
-            Image image1 = new Image(getClass().getResourceAsStream("sen.png"));
-            image.setImage(image1);
-            String name = ar.get(0).getFirstName();
-            nametag.setText(name);
-            addressTag.setText(ar.get(0).getAddress());
-            datetag.setText(ar.get(0).getDate());
-            nictag.setText(ar.get(0).getNic());
+            Parent root= null;
+            try {
+                root = FXMLLoader.load(getClass().getResource("cusformController.fxml"));
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+            this.amodhpane.getChildren().clear();
+            this.amodhpane.getChildren().add(root);
+
         }
 
     }
